@@ -1,6 +1,6 @@
-import { JustUtils } from '@gnosoft/general-components'
-
-const isEmptyString = JustUtils.StringUtils.isEmptyString
+import {
+  isEmptyString
+} from '../util/string-utils'
 
 export const tableMixin = {
   data: function () {
